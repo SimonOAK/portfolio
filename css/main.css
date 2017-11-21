@@ -149,14 +149,21 @@ img{
 	width: 900px;
 	margin: 0 auto;
 }
-.wpwrap{
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+.wpheader{
+	width: 200px;
+	margin: 0 auto;
 
 }
 
-.wpitem{
+.wplogo{
 	background-color: red;
-
 }
 
+.logo{
+	display: block;
+	text-indent: -9999px;
+	width: 200px;
+	height: 150.31px;
+	background: url(../images/twplogo03.svg);
+ 	background-size: 200px 150.31px;
+}

@@ -11,6 +11,7 @@ html, body {
 }
 
 .headwrap{
+	position: relative;
 	max-height: 400px;
 	min-height: 100px;
 }
@@ -148,15 +149,30 @@ img{
 
 /* TeamWillPower css */
 
+.twpheader{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background-image: url(../images/willpower-header.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+
+.twpheaderimg{
+
+}
 
 .wpbody{
 	max-width: 900px;
 	margin: 0 auto;
+	padding-top: 30px;
 }
 .wpheader{
-	width: 200px;
-	margin: 0 auto;
-	padding-bottom: 35px;
+	position: relative;
+    width: 200px;
+    margin: 0 auto;
+    padding-bottom: 35px;
 
 }
 
@@ -167,6 +183,7 @@ img{
 
 .wplogokey{
     width: 100%;
+    color: white;
 }
 
 .wptextwrap{
@@ -217,4 +234,19 @@ img{
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.teamwrap{
+	padding-top: 10px;
+
+}
+
+.teamitem{
+
+}
+
+.twpteam{
+	box-sizing: content-box;
+	width: 100%;
+
 }

@@ -105,10 +105,41 @@ p{
 
 /* Main-site css */
 
+
+@media (max-aspect-ratio: 1/1) {  
+
 .projitem{
 
 
 	display: grid;
+	position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0,0,0);
+
+
+	
+}
+
+.textwrap{
+	position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -10px;
+
+}
+
+
+
+
+}
+
+@media (min-aspect-ratio: 1/1) {  
+
+.projitem{
+
+
+	display: flex;
 	
     align-items: center;
     justify-content: center;
@@ -116,6 +147,8 @@ p{
 
 
 	
+}
+
 }
 
 .textwrap{

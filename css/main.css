@@ -119,10 +119,10 @@ p{
 
 .textwrap{
 	position: absolute;
-	display: inherit;
+	/*display: inherit;
     align-items: inherit;
     justify-content: inherit;
-    /*width: 100%;*/
+    width: 100%;*/
 
 }
 

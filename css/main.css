@@ -108,10 +108,10 @@ p{
 .projitem{
 
 
-	/*display: flex;
+	display: grid;
 	
     align-items: center;
-    justify-content: center;*/
+    justify-content: center;
     background-color: rgb(0,0,0);
 
 
@@ -140,7 +140,6 @@ p{
 
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 22%;
 	width: 300px;
 
 }

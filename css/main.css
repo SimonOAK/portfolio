@@ -7,6 +7,16 @@ html, body {
 
 }
 
+/* 
+
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+
+*/
+
 .titlelink{
 	text-decoration: none;
 	color: black;
@@ -112,12 +122,12 @@ p{
 	display: inherit;
     align-items: inherit;
     justify-content: inherit;
-    width: 100%;
+    /*width: 100%;*/
 
 }
 
 .imagetext{
-	position: absolute;
+	/*position: absolute;*/
 	font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
     "Segoe UI", "Roboto", "Oxygen", 
     "Ubuntu", "Cantarell", "Fira Sans", 
@@ -190,7 +200,6 @@ img{
 
 .wptextwrap{
 	box-sizing: content-box;
-	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
 	font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 

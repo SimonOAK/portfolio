@@ -246,16 +246,6 @@ a:active {
  	text-decoration: underline;
 }
 
-.bottlerheader{
-	position: absolute;
-	width: 100%;
-	height: 300px;
-	background-image: url(../images/bottler-key-01.jpg);
-	/*background-color: #343657;*/
-	background-size: cover;
-	background-position: center;
-
-}
 
 .twpheader{
 	position: absolute;
@@ -409,7 +399,7 @@ a:active {
 }
 
 .teamwrap{
-	padding-top: 10px;
+	
 
 }
 
@@ -420,6 +410,7 @@ a:active {
 .twpteam{
 	box-sizing: content-box;
 	width: 100%;
+	padding-top: 10px;
 
 }
 
@@ -497,3 +488,56 @@ a:active {
 	height: 100%;
 
 }
+
+
+/* SPECIFIC BOTTLER CSS */
+
+.bottlerheader{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background-image: url(../images/bottler-key-01.jpg);
+	/*background-color: #343657;*/
+	background-size: cover;
+	background-position: center;
+
+}
+
+@media (min-aspect-ratio: 1/1) {  
+
+.bottlerrace{
+	box-sizing: content-box;
+	width: 100%;
+	padding-top: 10px;
+
+}
+
+.bottlerteam{
+	box-sizing: content-box;
+	width: 100%;
+	display: none;
+}
+
+}
+
+@media (max-aspect-ratio: 1/1) {  
+
+.bottlerrace{
+	box-sizing: content-box;
+	width: 100%;
+	display: none;
+}
+
+.bottlerteam{
+	box-sizing: content-box;
+	width: 100%;
+
+}
+
+
+}
+
+
+
+
+/*SPECIFIC CHAIR OF ATTENTION CSS*/

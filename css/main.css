@@ -426,6 +426,7 @@ a:active {
 .twprace{
 	box-sizing: content-box;
 	width: 100%;
+	padding-top: 10px;
 
 }
 

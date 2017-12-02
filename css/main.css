@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
- 
+ 	background-color: black;
 
 }
 
@@ -18,6 +18,12 @@ html, body {
 */
 
 .titlelink{
+	text-decoration: none;
+	color: white;
+	font-weight: 100;
+}
+
+.titlelinkproj{
 	text-decoration: none;
 	color: black;
 }
@@ -94,8 +100,9 @@ p{
     "Segoe UI", "Roboto", "Oxygen", 
     "Ubuntu", "Cantarell", "Fira Sans", 
     "Droid Sans", "Helvetica Neue", sans-serif;
- 	 color: black;
-  	font-size: 12px;
+ 	font-size: 12px;
+  	color: white;
+  	font-weight: 100;
 
 }
 
@@ -105,6 +112,7 @@ h2{
 	margin-bottom: 0.5em;
 	font-size: 14px;
 	font-weight: normal;
+	font-weight: 100;
 }
 
 /* Main-site css */
@@ -120,6 +128,7 @@ h2{
     align-items: center;
     justify-content: center;
     background-color: rgb(0,0,0);
+    font-size: 0.8em;
 
 
 	
@@ -201,13 +210,70 @@ img{
   
 }
 
-/* TeamWillPower css */
+
+a:link{
+
+
+}
+
+
+a:visited {
+	
+    
+    
+}
+
+a:active {
+
+}
+
+/* Projects css */
+
+
+.twplinkwrap{
+	margin-top: 10px;
+	
+
+}
+
+.wptext a:link, .wptext a:visited, .wptext a:active {
+	color:white;
+}
+
+.twplink{
+
+ 	color: white;
+ 	text-decoration: underline;
+}
+
+.bottlerheader{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background-image: url(../images/bottler-key-01.jpg);
+	/*background-color: #343657;*/
+	background-size: cover;
+	background-position: center;
+
+}
 
 .twpheader{
 	position: absolute;
 	width: 100%;
 	height: 300px;
 	background-image: url(../images/willpower-header.jpg);
+	/*background-color: #343657;*/
+	background-size: cover;
+	background-position: center;
+
+}
+
+.coaheader{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background-image: url(../images/coa-header-01.jpg);
+	/*background-color: #343657;*/
 	background-size: cover;
 	background-position: center;
 
@@ -256,6 +322,8 @@ img{
     padding: 5px;
     margin-bottom: 10px;
     line-height: 18px;
+    color: white;
+    font-weight: 100;
 
 }
 
@@ -295,6 +363,8 @@ img{
     padding: 5px;
     margin-bottom: 10px;
     line-height: 18px;
+    color: white;
+    font-weight: 100;
 
 }
 
@@ -316,6 +386,7 @@ img{
 .wptext{
 	display: block;
 	padding-right: 22px;
+	a:link: white;
 
 }
 
@@ -356,6 +427,11 @@ img{
 	padding-top: 10px;
 }
 
+.paddingwrap{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .twprace{
 	box-sizing: content-box;
 	width: 100%;
@@ -375,6 +451,8 @@ img{
     margin-bottom: 40px;
     margin-top: 40px;
     line-height: 18px;
+    color: white;
+    font-weight: 100;
 
 
 }
@@ -383,6 +461,7 @@ img{
 
 	.sectiontext{
 		grid-column: 2/5;
+		padding-right: 25px;
 
 	}
 
@@ -393,7 +472,7 @@ img{
 	.sectiontext{
 		
 		grid-column: 1/6;
-		padding-right:15px;
+		padding-right:19px;
 		padding-left:5px;
 		
 

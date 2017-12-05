@@ -543,6 +543,22 @@ a:active {
 
 }
 
+@media (max-aspect-ratio: 1/1) {  
+
+.coapartswrap{
+	display: none;
+}
+
+}
+
+@media (min-aspect-ratio: 1/1) {  
+
+.coapartswraphor{
+	display: none;
+}
+
+}
+
 /*SPECIFIC CME CSS*/
 
 .cmeheader{
@@ -596,3 +612,21 @@ a:active {
 
 }
 
+
+.legologoheader{
+	position: relative;
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 86px;
+    padding-top: 30px;
+
+}
+
+@media (max-aspect-ratio: 1/1) {  
+
+.legoinstructionwrap{
+	display: none;
+
+}
+
+}

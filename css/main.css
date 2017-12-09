@@ -210,6 +210,14 @@ img{
   
 }
 
+ul{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	line-height: 23px;
+}
+
 
 a:link{
 
@@ -448,6 +456,7 @@ a:active {
 
 	}
 
+
 }
 
 @media (max-aspect-ratio: 1/1) {  
@@ -662,6 +671,11 @@ a:active {
 
 }
 
+.teamitempad{
+	padding-bottom: 10px;
+
+}
+
 /* WICKI CSS */
 
 
@@ -676,4 +690,31 @@ a:active {
 
 }
 
+/* SAFETY PIN CSS */
+
+.safetyheader{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background-image: url(../images/safety-header.jpg);
+	/*background-color: #343657;*/
+	background-size: cover;
+	background-position: center;
+
+}
+
+/* ABOUT CSS */
+
+.infoheader{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+
+}
+
+.titlelinkev{
+	text-decoration: none;
+	color: white;
+	font-weight: 100;
+}
 

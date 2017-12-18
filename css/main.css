@@ -70,6 +70,13 @@ p{
 	margin-bottom: 3px;
 }
 
+.namea{
+	transform: rotate(90deg);
+	float: left;
+	padding-left: 20px;
+
+}
+
 .titel{
 	text-align: center;
 }

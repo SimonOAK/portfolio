@@ -552,7 +552,7 @@ a:active {
 	position: absolute;
 	width: 100%;
 	height: 300px;
-	background-image: url(../images/coa-header-01.jpg);
+	background-image: url(../images/coa-header-02.jpg);
 	/*background-color: #343657;*/
 	background-size: cover;
 	background-position: center;
@@ -704,6 +704,34 @@ a:active {
 	width: 100%;
 	height: 300px;
 	background-image: url(../images/safety-header.jpg);
+	/*background-color: #343657;*/
+	background-size: cover;
+	background-position: center;
+
+}
+
+/* Violence of Reality CSS */
+
+
+.violenceheader{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background-image: url(../images/Violence-startpage-03.jpg);
+	/*background-color: #343657;*/
+	background-size: cover;
+	background-position: center;
+
+}
+
+/* Table of Discussion CSS */
+
+
+.tableheader{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background-image: url(../images/table-side.jpg);
 	/*background-color: #343657;*/
 	background-size: cover;
 	background-position: center;

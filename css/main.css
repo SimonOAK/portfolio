@@ -203,6 +203,13 @@ h2{
 
 }
 
+/*When no Text on Image*/
+
+.imgitemnotext{
+	opacity: 100;
+
+}
+
 
 video{
 	display: block; 

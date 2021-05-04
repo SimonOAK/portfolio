@@ -20,7 +20,7 @@ html, body {
 .titlelink{
 	text-decoration: none;
 	color: white;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .titlelinkproj{
@@ -50,9 +50,11 @@ html, body {
     "Ubuntu", "Cantarell", "Fira Sans", 
     "Droid Sans", "Helvetica Neue", sans-serif;
   color: black;
-  font-size: 12px;
+  font-size: 15px;
+  letter-spacing: 0.04em;
   justify-content: center;
   align-items: center;
+  font-weight: 300;
 
 }
 
@@ -107,9 +109,10 @@ p{
     "Segoe UI", "Roboto", "Oxygen", 
     "Ubuntu", "Cantarell", "Fira Sans", 
     "Droid Sans", "Helvetica Neue", sans-serif;
- 	font-size: 12px;
+ 	font-size: 15px;
   	color: white;
-  	font-weight: 100;
+  	letter-spacing: 0.04em;
+  	font-weight: 300;
 
 }
 
@@ -190,7 +193,6 @@ h2{
 	font-size: 2em;
 	font-weight: normal;
 	color: white;
-
 	margin: 0 auto;
 	text-align: center;
 	width: 300px;
@@ -326,7 +328,7 @@ a:active {
     margin-bottom: 10px;
     line-height: 18px;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
 
 }
 
@@ -367,7 +369,7 @@ a:active {
     margin-bottom: 10px;
     line-height: 18px;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
 
 }
 
@@ -451,13 +453,14 @@ a:active {
     "Segoe UI", "Roboto", "Oxygen", 
     "Ubuntu", "Cantarell", "Fira Sans", 
     "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     padding: 5px;
+    letter-spacing: 0.04em;
     margin-bottom: 40px;
     margin-top: 40px;
     line-height: 18px;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
 
 
 }
@@ -598,7 +601,7 @@ a:active {
 .titlelinkcme{
 	text-decoration: none;
 	color: white;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 
@@ -618,7 +621,7 @@ a:active {
 .titlelinkev{
 	text-decoration: none;
 	color: white;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 /*SPECIFIC LEGO GENERATOR CSS*/
@@ -788,6 +791,19 @@ a:active {
 
 }
 
+/* SPECIFIC FEEL THE FORCE MACHINE CSS */
+
+.forcemachineheader{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background-image: url(../images/forcemachine-header-1.jpg);
+	/*background-color: #343657;*/
+	background-size: cover;
+	background-position: top;
+
+}
+
 /* ABOUT CSS */
 
 .infoheader{
@@ -800,6 +816,6 @@ a:active {
 .titlelinkev{
 	text-decoration: none;
 	color: white;
-	font-weight: 100;
+	font-weight: 300;
 }
 

@@ -7,6 +7,9 @@ whtml, body {
 
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Flex:opsz,slnt,wdth,wght,GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC@8..144,-2,151,1000,-200,499,61,854,-233,560,570,760&display=swap');
+
 /* 
 
 * {
@@ -112,6 +115,7 @@ h2{
 	font-weight: 100;
 }
 
+
 /* Main-site css */
 
 
@@ -128,6 +132,37 @@ h2{
   justify-content: center;
   align-items: center;
   font-weight: 300;
+
+}
+
+.brandnametext{
+	/*position: absolute;*/
+	font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 5.2vw;
+	font-weight: 300;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	letter-spacing: 1px;
+
+}
+
+.imagetext{
+	/*position: absolute;*/
+	font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 5.2vw;
+	font-weight: normal;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
 
 }
 
@@ -187,6 +222,37 @@ h2{
 	
 }
 
+.brandnametext{
+	/*position: absolute;*/
+	font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 2.2vw;
+	font-weight: 300;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	letter-spacing: 1px;
+
+}
+
+.imagetext{
+	/*position: absolute;*/
+	font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 3.2vw;
+	font-weight: normal;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+
+}
+
 }
 
 .textwrap{
@@ -199,20 +265,9 @@ h2{
 
 }
 
-.imagetext{
-	/*position: absolute;*/
-	font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
-    "Segoe UI", "Roboto", "Oxygen", 
-    "Ubuntu", "Cantarell", "Fira Sans", 
-    "Droid Sans", "Helvetica Neue", sans-serif;
-	font-size: 2em;
-	font-weight: normal;
-	color: white;
-	margin: 0 auto;
-	text-align: center;
-	width: 300px;
 
-}
+
+
 
 
 .imgitem{
@@ -390,6 +445,7 @@ a:active {
 
 
 
+
 .wptext:nth-child(1){
 	grid-column: 1;
 }
@@ -403,10 +459,13 @@ a:active {
 }
 
 
+
 .wptext{
 	display: block;
 	padding-right: 22px;
-	a:link: white;
+	a;fill: white;
+
+}
 
 }
 
@@ -476,7 +535,7 @@ a:active {
     "Segoe UI", "Roboto", "Oxygen", 
     "Ubuntu", "Cantarell", "Fira Sans", 
     "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     padding: 5px;
     letter-spacing: 0.04em;
     margin-bottom: 40px;
@@ -709,13 +768,14 @@ a:active {
 
 }
 
-}
+
 
 .teamitempad{
 	padding-bottom: 10px;
 
 }
 
+}
 /* WICKI CSS */
 
 
@@ -782,7 +842,7 @@ a:active {
 	background-image: url(../images/oldmilk-huvudsektion-3.jpg);
 	/*background-color: #343657;*/
 	background-size: cover;
-	background-position: top;
+	background-position: top; 
 
 }
 
@@ -862,6 +922,18 @@ a:active {
 	width: 100%;
 	height: 300px;
 	background-image: url(../images/samla-header-1.jpg);
+	/*background-color: #343657;*/
+	background-size: cover;
+	background-position: top;
+
+}
+
+
+.kivrasamlaheader{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background-image: url(../images/kivra-header-04.jpg);
 	/*background-color: #343657;*/
 	background-size: cover;
 	background-position: top;

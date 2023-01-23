@@ -7,9 +7,6 @@ whtml, body {
 
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Flex:opsz,slnt,wdth,wght,GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC@8..144,-2,151,1000,-200,499,61,854,-233,560,570,760&display=swap');
-
 /* 
 
 * {
@@ -127,7 +124,7 @@ h2{
     "Ubuntu", "Cantarell", "Fira Sans", 
     "Droid Sans", "Helvetica Neue", sans-serif;
   color: black;
-  font-size: 12px;
+  font-size: 15px;
   letter-spacing: 0.04em;
   justify-content: center;
   align-items: center;
@@ -137,12 +134,12 @@ h2{
 
 .brandnametext{
 	/*position: absolute;*/
-	font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+	font-family: 'Roboto Serif', serif, 'Output Sans', -apple-system, BlinkMacSystemFont, 
     "Segoe UI", "Roboto", "Oxygen", 
     "Ubuntu", "Cantarell", "Fira Sans", 
     "Droid Sans", "Helvetica Neue", sans-serif;
 	font-size: 5.2vw;
-	font-weight: 300;
+	font-weight: 200;
 	color: white;
 	margin: 0 auto;
 	text-align: center;
@@ -153,7 +150,7 @@ h2{
 
 .imagetext{
 	/*position: absolute;*/
-	font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+	font-family: 'Roboto Serif', serif, 'Output Sans', -apple-system, BlinkMacSystemFont, 
     "Segoe UI", "Roboto", "Oxygen", 
     "Ubuntu", "Cantarell", "Fira Sans", 
     "Droid Sans", "Helvetica Neue", sans-serif;
@@ -224,12 +221,12 @@ h2{
 
 .brandnametext{
 	/*position: absolute;*/
-	font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+	font-family: 'Roboto Serif', serif, 'Output Sans', -apple-system, BlinkMacSystemFont, 
     "Segoe UI", "Roboto", "Oxygen", 
     "Ubuntu", "Cantarell", "Fira Sans", 
     "Droid Sans", "Helvetica Neue", sans-serif;
 	font-size: 2.2vw;
-	font-weight: 300;
+	font-weight: 200;
 	color: white;
 	margin: 0 auto;
 	text-align: center;
@@ -240,7 +237,7 @@ h2{
 
 .imagetext{
 	/*position: absolute;*/
-	font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+	font-family: 'Roboto Serif', serif, 'Output Sans', -apple-system, BlinkMacSystemFont, 
     "Segoe UI", "Roboto", "Oxygen", 
     "Ubuntu", "Cantarell", "Fira Sans", 
     "Droid Sans", "Helvetica Neue", sans-serif;

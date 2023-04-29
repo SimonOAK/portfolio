@@ -60,7 +60,7 @@ p{
 }
 
 .namea{
-	transform: rotate(90deg);
+	/*transform: rotate(90deg);*/
 	float: left;
 	padding-left: 20px;
 
@@ -105,6 +105,10 @@ p{
 
 
 h2{
+	font-family: 'Roboto Serif', serif, 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
 	margin: 0;
 	margin-bottom: 0.5em;
 	font-size: 14px;
@@ -930,7 +934,7 @@ a:active {
 	position: absolute;
 	width: 100%;
 	height: 300px;
-	background-image: url(../images/kivra-header-02.jpg);
+	background-image: url(../images/kivra-header-01.jpg);
 	/*background-color: #343657;*/
 	background-size: cover;
 	background-position: top;

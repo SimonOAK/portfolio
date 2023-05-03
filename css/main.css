@@ -21,12 +21,14 @@ whtml, body {
 	text-decoration: none;
 	color: white;
 	font-weight: 200;
+
 }
 
 .titlelinkproj{
 	text-decoration: none;
 	color: black;
 }
+
 
 .headwrap{
 	position: relative;
@@ -144,7 +146,7 @@ h2{
     "Droid Sans", "Helvetica Neue", sans-serif;
 	font-size: 3.5vw;
 	font-weight: 300;
-	color: white;
+	-webkit-text-fill-color:white;
 	margin: 0 auto;
 	text-align: center;
 	width: 80%;
@@ -159,12 +161,14 @@ h2{
     "Ubuntu", "Cantarell", "Fira Sans", 
     "Droid Sans", "Helvetica Neue", sans-serif;
 	font-size: 5.2vw;
-	font-weight: normal;
-	color: white;
+	font-weight: bold;
+	-webkit-text-fill-color: white;
 	margin: 0 auto;
 	text-align: center;
 	width: 80%;
 	font-optical-sizing: auto;
+	
+
 
 }
 
@@ -185,7 +189,7 @@ h2{
 .textwrap{
 	position: absolute;
     width: 100%;
-    top: 50%;
+    /*top: 50%;*/ /*flyttade ner projektnamnnen*/
     margin-top: -10px;
 
 }

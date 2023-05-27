@@ -1,358 +1,919 @@
 <!DOCTYPE html>
 <html> 
 <head>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,200;8..144,300;8..144,400&display=swap" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	<title>My Page Title</title>
-  	<link rel="icon" type="image/x-icon" href="images/favicon-smiley-01.svg">
-	<title>Portfolio of Simon Kraft - Art Director and Creative</title>
-	<meta name="description" content="This is the portfolio of Simon Kraft, Creative Lead and Art Director.">
-	<meta name="keywords" content="Art Direction, Creative, Creative director, Designer, Social Media, Product marketing, UX design, Communication, Portfolio, Advertising, PR, Campaign, Activation">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="icon" type="image/x-icon" href="images/favicon-smiley-01.svg">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Portfolio of Simon Kraft - Art Director and Creative</title>
+	<meta name="description" content="Hej! This is the portfolio of Simon Kraft, Creative Lead and Art Director.">
+	<meta name="keywords" content="Art Direction, Creative, Creative director, Designer, Social Media, Product marketing, UX design, Communication, Portfolio, Advertising, PR, Campaign, Activation">
+
+	<style>
+
+	body{
+		margin: auto;
+		padding: auto;
+		background-color: #121212;
+			
+		}
+
+		a{
+			color: #edeff1;
+		}
+
+		p{
+			margin: 0px auto;
+		}
+
+		a.nav:link {
+			color: (internal value);
+			text-decoration: none;
+			cursor: pointer;
+			margin: 0;
+			padding: 0;
+		}
+
+		a.nav:hover {
+			color:#03dac6;
+			text-decoration: none;
+			cursor: pointer;
+			margin: 0;
+			padding: 0;
+		}
+
+
+		div{
+			/*outline-color: aqua;
+			outline-style: dashed;*//* outlines for divs to find see them easier*/
+			margin: auto;
+			padding: auto;
+
+		}
+
+		
+		
+
+		/* desktop screen */
+		@media (min-width: 800px){
+		h4{
+			margin: 0;
+			padding: 0;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 20pt;
+			font-weight: 500;
+			color: #edeff1;
+
+		}
+		}
+
+		/* mobile screen */
+		@media (max-width: 800px){
+		h4{
+			margin: 0;
+			padding: 0;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 15pt;
+			font-weight: 500;
+			color: #edeff1;
+
+		}
+		}
+
+		/* desktop screen */
+		@media (min-width: 600px){
+
+			h1{
+			margin: 0;
+			padding: 0;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 20pt;
+			font-weight: 500;
+			color: #edeff1;
+
+			}
+		
+			h2{
+			margin: 0;
+			padding: 0;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 50pt;
+			font-weight: 900;
+			text-transform: uppercase;
+			line-height: 1;
+			color: #edeff1;
+			}
+
+			h3{
+			margin: 0;
+			padding: 0;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 17pt;
+			font-weight: 500;
+			text-transform: uppercase;
+			line-height: 1.5;
+			-webkit-text-fill-color: #edeff1;
+		}
+
+		}
+
+		/* mobile screen */
+		@media (max-width: 600px){
+
+			h1{
+			margin: 0;
+			padding: 0;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 15pt;
+			font-weight: 500;
+			color: #edeff1;
+
+		}
+			
+			h2{
+			margin: -21px 0px 0px -1.5px;
+			padding: 0;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 3.5vh;
+			font-weight: 900;
+			text-transform: uppercase;
+			line-height: 1;
+			}
+
+		
+
+		h3{
+			margin: 0 0 0 0;
+			padding: 0;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 1.6vh;
+			font-weight: 500;
+			text-transform: uppercase;
+			line-height: 0.5px;
+			-webkit-text-fill-color: #edeff1;
+		}
+		}
+
+		/* desktop screen */
+		@media (min-width: 600px){
+		.text{
+			margin: 0;
+			padding: 0;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 18pt;
+			font-weight: 400;
+			line-height: 1.3;
+			-webkit-text-fill-color: #edeff1;
+			padding-top: 20px;
+			padding-right: 10%;
+			margin-bottom: 25px;
+			align-items: left;
+
+		}
+		}
+
+		/* mobile screen */
+		@media (max-width: 600px){
+		.text{
+			margin: 0;
+			padding: 0;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 11pt;
+			font-weight: 400;
+			line-height: 1.3;
+			-webkit-text-fill-color: #edeff1;
+			padding-top: 0px;
+			padding-right: 10%;
+			margin-bottom: 20px;
+			align-items: left;
+
+		}
+		}
+		
+		p{
+			margin: 0;
+			padding: 0;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 18pt;
+			font-weight: 500;
+			line-height: 1.5;
+
+		}
+
+		.block{
+			display: grid;
+			margin: 0;
+			padding: auto;
+						
+		
+		}
+
+	
+		.projblock{
+			height: auto;
+			padding: auto;
+			margin: 0px 10px;
+			/*background-color: red;*/ /*red background for all grid blocks*/
+
+		}
+
+		/* En animerad banner i toppen av sidan*/
+		.scrollwelcome{
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 20pt;
+			font-weight: 500;
+			color:#edeff1;
+    		width: 100%;
+			height: 100%;
+			margin: 0;
+			line-height: 50px;
+			text-align: center;
+			/* Starting position */
+			-moz-transform:translateX(100%);
+			-webkit-transform:translateX(100%);	
+			transform:translateX(100%);
+			/* Apply animation to this element */	
+			-moz-animation: scroll-left 20s linear infinite;
+			-webkit-animation: scroll-left 20s linear infinite;
+			animation: scroll-left 20s linear infinite;
+			}
+			/* Move it (define the animation) */
+			@-moz-keyframes scroll-left {
+			0%   { -moz-transform: translateX(100%); }
+			100% { -moz-transform: translateX(-100%); }
+			}
+			@-webkit-keyframes scroll-left {
+			0%   { -webkit-transform: translateX(100%); }
+			100% { -webkit-transform: translateX(-100%); }
+			}
+			@keyframes scroll-left {
+			0%   { 
+			-moz-transform: translateX(100%); /* Browser bug fix */
+			-webkit-transform: translateX(100%); /* Browser bug fix */
+			transform: translateX(100%); 		
+			}
+			100% { 
+			-moz-transform: translateX(-100%); /* Browser bug fix */
+			-webkit-transform: translateX(-100%); /* Browser bug fix */
+			transform: translateX(-100%); 
+			}
+		}
+
+		/* En animerad banner i toppen av sidan*/
+		.scrolllock{
+			display: block;
+			max-width: 1200px;
+			padding: 20px 0px 5px 0px;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			align-items: center;
+			
+		}
+
+
+		.bigheader .bigheadertext{
+			transform-origin: 50% 100%;
+  			display: inline-block;
+  			line-height: 1em;
+			
+		}
+
+
+		.headerblock{
+			display: block;
+			max-width: 1200px;
+			padding: 20px 0px 5px 0px;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			align-items: center;
+			
+		}
+
+		.header1{
+			display: flex;
+			align-items: center;
+   		 	justify-content: space-between;
+
+		}
+
+		.header2{
+			padding-bottom: 50px;
+			
+		}
+
+		
+
+		.projcontainer{
+			display: flex;
+			padding-bottom: 0px;
+			max-width: 1200px;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			
+		}
+
+
+		/* desktop */
+		@media (min-width: 600px){
+
+			.nav{
+			float: right;
+			margin: 0;
+			padding: 0;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 18pt;
+			font-weight: 500;
+		}
+
+		.listcontainer{
+			display: flex;
+			padding-bottom: 0px;
+			max-width: 1200px;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			margin-bottom: 50px;
+			
+		}
+		}
+
+		/* mobile screen */
+		@media (max-width: 600px){
+
+			.nav{
+			float: right;
+			margin: 0;
+			padding: 0;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 15pt;
+			font-weight: 500;
+		}
+
+		.listcontainer{
+			display: block;
+			padding-bottom: 0px;
+			max-width: 1200px;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			margin-bottom: 50px;
+			
+		}
+		}
+
+		/* desktop screen */
+		@media (min-width: 600px){
+
+		.projseparator{
+			display: flex;
+			height: 6rem;
+			max-width: 1200px;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+
+		}
+
+		}
+
+
+		/* mobile screen */
+		@media (max-width: 600px){
+
+		.projseparator{
+			display: flex;
+			height: 7vh;
+			max-width: 1200px;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+
+		}
+
+		}
+
+
+
+		.projfirsttitle{
+
+			position: absolute;
+			display: flex;
+			max-width: 780px;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			align-items: left;
+
+
+		}
+
+		.projtitle{
+			opacity: 0;
+ 			transform: translateY(50px);
+			transition: all 1.2s ease-out;
+			position: absolute;
+			display: flex;
+			max-width: 780px;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			align-items: left;
+
+			
+
+		}
+
+		.projtitleVisible{
+			opacity: 1;
+  			transform: translateY(0);
+			position: absolute;
+			display: flex;
+			max-width: 780px;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			align-items: left;
+	
+			
+
+		}
+
+		.client{
+			padding-top: 10px;
+			
+
+		}
+
+		/* desktop screen */
+		@media (min-width: 600px){
+
+		.projimage{
+			position:relative;
+			padding: 35px 0px 0px 12%;
+			float: top;
+			object-fit: cover;	
+		
+		}
+
+		}
+
+		/* mobile screen */
+		@media (max-width: 600px){
+
+		.projimage{
+			position:relative;
+			padding: 36px 0px 0px 0px;
+			float: top;
+			object-fit: cover;	
+		
+		}
+
+		}
+
+		
+
+		.projimagefirst{
+			position:relative;
+			padding: 35px 0px 0px 12%;
+			float: top;
+			object-fit: cover;	
+		}
+
+		img{
+			height: 100%;
+			width: 100%;
+
+		}
+
+		video{
+			height: 100%;
+			width: 100%;
+		}
+
+		ol{
+			padding: 0;
+			margin: 0;
+			list-style-position: none;
+			list-style-type: none;
+			margin-bottom: 0px;
+			margin-right: 12px;
+
+		}
+
+		/* desktop screen */
+		@media (min-width: 600px){
+
+		li{
+			padding: 0;
+			margin: 0;
+			list-style-position: none;
+			list-style-type: none;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 12pt;
+			font-weight: 400;
+			line-height: 1.5;
+			-webkit-text-fill-color: #edeff1;
+
+		}
+
+		.listhead{
+			font-size: 18pt;
+			font-weight: 800;
+			margin-bottom: 10px;
+			margin-top: 10px;
+		}
+
+		}
+
+		/* mobile screen */
+		@media (max-width: 600px){
+
+		li{
+			padding: 0;
+			margin: 0;
+			list-style-position: none;
+			list-style-type: none;
+			font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+			"Segoe UI", "Roboto", "Oxygen", 
+			"Ubuntu", "Cantarell", "Fira Sans", 
+			"Droid Sans", "Helvetica Neue", sans-serif;
+			font-size: 11pt;
+			font-weight: 400;
+			line-height: 1.5;
+			-webkit-text-fill-color: #edeff1;
+
+		}
+
+		.listhead{
+			font-size: 15pt;
+			font-weight: 800;
+			margin-bottom: 10px;
+			margin-top: 10px;
+		}
+
+		}
+
+		.namn{
+			font-weight: 800;
+			font-style: italic;	
+			
+		}
+
+	
+
+		/* desktop screen */
+		@media (min-width: 600px){
+		
+		
+		.footerblock{
+			display: flex;
+			max-width: 1200px;
+			padding: 50px 0px;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			align-items: center;
+
+			}
+		}
+
+		/* mobile screen */
+		@media (max-width: 600px){
+		
+		
+		.footerblock{
+			display: flex;
+			max-width: 1200px;
+			padding: 50px 0px;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			align-items: center;
+
+			}
+		}
+
+	</style>
+
 </head>
+
 <body>
-	<header>
-		<div class="headwrap">
-			<div class="headgrid">
-				<div class="headcolumn">
-					<a class="titlelink" href="pages/about.html" class="text">
-						<div id="parwrap">
-							<p class="namea">About</p>	
-						</div>
-					</a>
-				</div>
-				<div class="headcolumn">
-				</div>
-				<div class="headcolumn">
-					<a class="titlelink" href="index.html" class="text">
-						<div id="parwrap">
-							<p class="name">Simon Kraft</p>
-							<p class="titel">Art Director</p>
-						</div>
-					</a>
-				</div>
-				<div class="headcolumn">
-				</div>
-				<div class="headcolumn"></div>
+
+<div class="block">
+	<div class="projblock">
+		<div class="headerblock">
+			<div class="header1">
+				<h1>Simon Kraft</h1>
+				<a class="nav" href="pages/about.html">Om mig</a>
 			</div>
-
-		</div>
-
-	</header>
-
-	<div class="projectgrid">
-
-
-<a href="pages/oldmilk.html" class="image">
-
-		<div class="projitem">
-			<div class="imgitemnotext">
-			<img src="images/oldmilk-black-smaller.jpg">
+			<div class="header2">
+				<h1>Art Director</h1>
 			</div>
-			<div class="textwrap">
-			<p class="imagetext">
-			</p>
-			</div>
-		</div>
-</a>
-
-<a href="pages/kivrasamla.html" class="image">
-
-	<div class="projitem">
-		<div class="imgitem">
-			<video poster="images/kivra-startimage-1.jpg" autoplay loop muted playsinline>
-				<source src="images/kivra-startpage-2.mp4" type="video/mp4">
-			  </video>
-		</div>
-		<div class="textwrap">
-		<p class="brandnametext">Kivra
-		</p>
-		<p class="imagetext">A New Creative Platform
-		</p>
 		</div>
 	</div>
-</a>
 
-<a href="pages/forcemachine.html" class="image">
+	<a class="navtitle" href="pages/oldmilk.html"> <div class="projblock">
+		<div class="projcontainer">
 
-		<div class="projitem">
-			<div class="imgitem">
-				<video poster="images/forcemachine-startimage-1.jpg" autoplay loop muted playsinline>
+			<div class="projimage">
+				<video class="image" poster="images/oldmilk-bottle-keyvis.png" autoplay loop muted playsinline>
+					<source src="images/oldmilk-startfilm-lowres-v1.mp4" type="video/mp4">
+				  </video>
+			</div>
+		
+			<div class="projfirsttitle">
+				<h2>Old milk</h2>
+				<h3 class="client">coop</h3>
+			</div>	
+		</div>
+	</div>
+	</a>
+
+
+	<div class="projblock">
+		<div class="projseparator">
+		</div>	
+	</div>
+
+
+	<a class="navtitle" href="pages/kivra.html"> <div class="projblock">
+		<div class="projcontainer">
+			<div class="projimage">
+				<video class="image" poster="images/kivra-startimage-1.jpg" autoplay loop muted playsinline>
+					<source src="images/kivra-startpage-2.mp4" type="video/mp4">
+				  </video>
+			</div>
+		
+			<div class="projtitle">
+				<h2>En bättre plats <br>för dina viktigheter</h2>
+				<h3 class="client">Kivra</h3>
+			</div>	
+		</div>
+	</div>
+	</a>
+
+	<div class="projblock">
+		<div class="projseparator">
+		</div>	
+	</div>
+
+
+	<a class="navtitle" href="pages/forcemachine.html"> <div class="projblock">
+		<div class="projcontainer">
+			<div class="projimage">
+				<video class="image" poster="images/forcemachine-startimage-1.jpg" autoplay loop muted playsinline>
 					<source src="images/forcemachine-startpage-1.mp4" type="video/mp4">
 				  </video>
 			</div>
-			<div class="textwrap">
-			<p class="brandnametext">Coca-Cola Zero
-			</p>
-			<p class="imagetext">Feel The Force Machine
-			</p>
-			</div>
+		
+			<div class="projtitle">
+				<h2>feel the force machine</h2>
+				<h3 class="client">coca-cola</h3>
+			</div>	
 		</div>
-</a>
+	</div>
+	</a>
 
-<a href="pages/cclt.html" class="image">
+	<div class="projblock">
+		<div class="projseparator">
+		</div>	
+	</div>
 
-		<div class="projitem">
-			<div class="imgitemnotext">
-			<img src="images/cclt–frontimg-01.jpg">
-			</div>
-			<div class="textwrap">
-			<p class="brandnametext">Coca-Cola Light
-			</p>
-			<p class="imagetext">Take it lightly
-			</p>
-			</div>
-		</div>
-</a>
-
-<a href="pages/tresamla.html" class="image">
-
-		<div class="projitem">
-			<div class="imgitem">
-				<video poster="images/samla-startsida-3.jpg" autoplay loop muted playsinline>
-					<source src="images/samla-startpage-1.mp4" type="video/mp4">
-				  </video>
-			</div>
-			<div class="textwrap">
-				<p class="brandnametext">Three
-				</p>
-				<p class="imagetext">Add anyone you want
-				</p>
-			</div>
-		</div>
-</a>
-
-<a href="pages/babytalk.html" class="image">
-
-		<div class="projitem">
-			<div class="imgitem">
-				<video poster="images/babytalk-3phones-3.jpg" autoplay loop muted playsinline>
+	<a class="navtitle" href="pages/babytalk.html"> <div class="projblock">
+		<div class="projcontainer">
+			<div class="projimage">
+				<video class="image" poster="images/babytalk-dad-02.jpg" autoplay loop muted playsinline>
 					<source src="images/babytalk-startpage-1.mp4" type="video/mp4">
 				  </video>
 			</div>
-			<div class="textwrap">
-				<p class="brandnametext">UNICEF
-				</p>
-				<p class="imagetext">Baby Talk for Dads
-				</p>
-				</div>
+		
+			<div class="projtitle">
+				<h2>baby talk for dads</h2>
+				<h3 class="client">unicef</h3>
+			</div>	
 		</div>
-</a>
-<!--
-<a href="pages/tableofdiscussion.html" class="image">
+	</div>
+	</a>
 
-		<div class="projitem">
-			<div class="imgitem">
-			<img src="images/table-keyvis-02.jpg">
+	<div class="projblock">
+		<div class="projseparator">
+		</div>	
+	</div>
+
+	<a class="navtitle" href="pages/cclt.html"> <div class="projblock">
+		<div class="projcontainer">
+			<div class="projimage">
+				<video class="image" poster="images/cclt-ooh-new-1.jpg" autoplay loop muted playsinline>
+					<source src="images/cclt-startpage-video-lowres.mp4" type="video/mp4">
+				  </video>
 			</div>
-			<div class="textwrap">
-			<p class="imagetext">Table of Discussion
-			</p>
-			</div>
+		
+			<div class="projtitle">
+				<h2>Take it lightly</h2>
+				<h3 class="client">Coca-Cola light</h3>
+			</div>	
 		</div>
-</a>
--->
+	</div>
+	</a>
 
+	<div class="projblock">
+		<div class="projseparator">
+		</div>	
+	</div>
 
-<!--
-<a href="pages/violencereality.html" class="image">
-
-		<div class="projitem">
-			<div class="imgitem">
-			<img src="images/violence-startpage-04-small.jpg">
+	<a class="navtitle" href="pages/tresamla.html"> <div class="projblock">
+		<div class="projcontainer">
+			<div class="projimage">
+				<video class="image" poster="images/samla-startsida-3.jpg" autoplay loop muted playsinline>
+					<source src="images/samla-startpage-1.mp4" type="video/mp4">
+				  </video>
 			</div>
-			<div class="textwrap">
-			<p class="imagetext">Violence of Reality
-			</p>
-			</div>
+		
+			<div class="projtitle">
+				<h2>SNYLTA MED TRE</h2>
+				<h3 class="client">tre</h3>
+			</div>	
 		</div>
-</a>
--->
+	</div>
+	</a>
 
-<a href="pages/gameofphones.html" class="image">
-			
-		<div class="projitem">
-			<div class="imgitem">
-			<img src="images/gamephones-01.jpg">
+	<div class="projblock">
+		<div class="projseparator">
+		</div>	
+	</div>
+
+	<a class="navtitle" href="pages/gameofphones.html"> <div class="projblock">
+		<div class="projcontainer">
+			<div class="projimage">
+				<video class="image" poster="images/gamephones-01.jpg" autoplay loop muted playsinline>
+					<source src="images/" type="video/mp4">
+				  </video>
 			</div>
-			<div class="textwrap">
-			<p class="brandnametext">Atea
-			</p>
-			<p class="imagetext">Game of Phones
-			</p>
-			</div>
+		
+			<div class="projtitle">
+				<h2>GAME OF PHONES</h2>
+				<h3 class="client">ATEA</h3>
+			</div>	
 		</div>
+	</div>
+	</a>
 
-</a>
+	<div class="projblock">
+		<div class="projseparator">
+		</div>	
+	</div>
 
-<!--
-<a href="pages/teamwillpower.html" class="image">
-
-		<div class="projitem">
-			<div class="imgitem">
-			<img src="images/willpower-01.jpg">
-			</div>
-			<div class="textwrap">
-			<p class="brandnametext">Renault
-			</p>
-			<p class="imagetext">TeamWillPower
-			</p>
-			</div>
-		</div>
-</a>
--->
-
-<a href="pages/chairofattention.html" class="image">
-
-		<div class="projitem">
-			<div class="imgitem">
-				<video poster="images/tmx-02.jpg" autoplay loop muted playsinline>
+	<a class="navtitle" href="pages/chairofattention.html"> <div class="projblock">
+		<div class="projcontainer">
+			<div class="projimage">
+				<video class="image" poster="images/tmx-02.jpg" autoplay loop muted playsinline>
 					<source src="images/tmx-startpage-1.mp4" type="video/mp4">
 				  </video>
 			</div>
-			<div class="textwrap">
-			<p class="brandnametext">TMF
-			</p>
-			<p class="imagetext">Chair of Attention
-			</p>
-			</div>
+		
+			<div class="projtitle">
+				<h2>CHAIR OF ATTENTION</h2>
+				<h3 class="client">TMF</h3>
+			</div>	
 		</div>
+	</div>
+	</a>
 
-</a>
+	<div class="projblock">
+		<div class="projseparator">
+		</div>	
+	</div>
 
-<a href="pages/bottler.html" class="image">
-			
-		<div class="projitem">
-			<div class="imgitem">
-			<img src="images/bottler-01.jpg">
+	<a class="navtitle" href="pages/bottler.html"> <div class="projblock">
+		<div class="projcontainer">
+			<div class="projimage">
+				<video class="image" poster="images/bottler-01.jpg" autoplay loop muted playsinline>
+					<source src="images/" type="video/mp4">
+				  </video>
 			</div>
-			<div class="textwrap">
-			<p class="brandnametext">IQ
-			</p>
-			<p class="imagetext">Bottler
-			</p>
-			</div>
+		
+			<div class="projtitle">
+				<h2>BOTTLER</h2>
+				<h3 class="client">IQ</h3>
+			</div>	
 		</div>
+	</div>
+	</a>
 
-</a>
+	<div class="projblock">
+		<div class="projseparator">
+		</div>	
+	</div>
 
-<!--
-<a href="pages/cme.html" class="image">
-
-		<div class="projitem">
-			<div class="imgitem">
-			<img src="images/cme-02.jpg">
+	<a class="navtitle" href="pages/solaffisch.html"> <div class="projblock">
+		<div class="projcontainer">
+			<div class="projimage">
+				<video class="image" poster="images/solaffisch-04.jpg" autoplay loop muted playsinline>
+					<source src="images/" type="video/mp4">
+				  </video>
 			</div>
-			<div class="textwrap">
-			<p class="imagetext">Renault CME
-			</p>
-			</div>			
+		
+			<div class="projtitle">
+				<h2>SOLKALENDERN</h2>
+				<h3 class="client"></h3>
+			</div>	
 		</div>
+	</div>
+	</a>
 
-</a>
--->
 
-<!--
-<a href="pages/evlicense.html" class="image">
 
-		<div class="projitem">
-			<div class="imgitem">
-			<img src="images/ev-key-01.jpg">
-			</div>
-			<div class="textwrap">
-			<p class="imagetext">The EV-License
-			</p>
-			</div>		
+	<div class="projblock">
+		<div class="footerblock">
+			<h4>sksimonkraft@gmail.com</h4>
+			<h4>Hemsida byggd av mig</h4>
+
 		</div>
-</a>
--->
-
-<a href="pages/solaffisch.html" class="image">
-			
-		<div class="projitem">
-			<div class="imgitem">
-			<img src="images/solaffisch-04.jpg">
-			</div>
-			<div class="textwrap">
-			<p class="imagetext">The Sun Calendar
-			</p>
-			</div>
-		</div>
-
-</a>
-
-<a href="pages/legogenerator.html" class="image">
-
-		<div class="projitem">
-			<div class="imgitem">
-			<img src="images/lego-start-01.jpg">
-			</div>
-			<div class="textwrap">
-			<p class="brandnametext">LEGO
-			</p>
-			<p class="imagetext">The LEGO Generator
-			</p>
-			</div>		
-		</div>
-</a>
-
-<!--
-<a href="pages/moyo.html" class="image">
-
-		<div class="projitem">
-			<div class="imgitem">
-			<img src="images/moyo-02.jpg">
-			</div>
-			<div class="textwrap">
-			<p class="imagetext">Moyo
-			</p>
-			</div>		
-		</div>
-</a>
--->
-<!--
-<a href="pages/wicki.html" class="image">
-
-		<div class="projitem">
-			<div class="imgitem">
-			<img src="images/wicki-start-03.jpg">
-			</div>
-			<div class="textwrap">
-			<p class="imagetext">Wicki
-			</p>
-			</div>		
-		</div>
-</a>
--->
-<!--
-<a href="pages/safetypin.html" class="image">
-
-		<div class="projitem">
-			<div class="imgitem">
-			<img src="images/safety-start-02.jpg">
-			</div>
-			<div class="textwrap">
-			<p class="imagetext">The Safety Pin
-			</p>
-			</div>		
-		</div>
-</a>
--->
+	</div>
 </div>
 
-	<footer>
-		<div class="footwrap">
-			<div class="footgrid"></div>
-			<div class="footgrid">
-				<p>sksimonkraft@gmail.com
-				</p>
-			</div>
-			<div class="footgrid"></div>
-		</div>
-	</footer>
+<script>
+
+		function checkForVisibility() {
+		var headers = document.querySelectorAll(".projtitle");
+		headers.forEach(function(header) {
+			if (isElementInViewport(header)) {
+			header.classList.add("projtitleVisible");
+			} 
+			
+		});
+		
+		}
+
+		function isElementInViewport(el) {
+		var rect = el.getBoundingClientRect();
+
+		return (
+			rect.top >= 0 &&
+			rect.left >= 0 &&
+			rect.bottom <=
+			(window.innerHeight || document.documentElement.clientHeight) &&
+			rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+		);
+		}
+
+		if (window.addEventListener) {
+		addEventListener("DOMContentLoaded", checkForVisibility, false);
+		addEventListener("load", checkForVisibility, false);
+		addEventListener("scroll", checkForVisibility, false);
+		}
+
+</script>
+
 </body>
 
 </html>

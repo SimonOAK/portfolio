@@ -1,0 +1,641 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-color: #121212;
+    
+}
+
+a{
+    color: #edeff1;
+}
+
+p{
+    margin: 0px auto;
+}
+
+a.nav:link {
+    color: (internal value);
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+a.nav:hover {
+    color:#03dac6;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+
+div{
+    /*outline-color: aqua;
+    outline-style: dashed;*//* outlines for divs to find see them easier*/
+    margin: auto;
+    padding: auto;
+
+}
+
+
+
+
+/* desktop screen */
+@media (min-width: 800px){
+    
+h4{
+    margin: 0;
+    padding: 0;
+    font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+    margin-bottom: 45px;
+    color: #edeff1;
+
+}
+}
+
+/* mobile screen */
+@media (max-width: 800px){
+h4{
+    margin: 0;
+    padding: 0;
+    font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #edeff1;
+
+}
+}
+
+/* desktop screen */
+@media (min-width: 800px){
+
+    h1{
+        margin: 0;
+        padding: 0;
+        font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+        "Segoe UI", "Roboto", "Oxygen", 
+        "Ubuntu", "Cantarell", "Fira Sans", 
+        "Droid Sans", "Helvetica Neue", sans-serif;
+        font-size: 20pt;
+        font-weight: 500;
+        color: #edeff1;
+    
+    }
+    
+
+    h2{
+    margin: 0;
+    padding: 0px 0px 40px 0px;
+    font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 50pt;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #edeff1;
+    }
+
+}
+
+/* mobile screen */
+@media (max-width: 800px){
+
+    h1{
+        margin: 0;
+        padding: 0;
+        font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+        "Segoe UI", "Roboto", "Oxygen", 
+        "Ubuntu", "Cantarell", "Fira Sans", 
+        "Droid Sans", "Helvetica Neue", sans-serif;
+        font-size: 15pt;
+        font-weight: 500;
+        color: #edeff1;
+    
+    }
+    
+    
+    h2{
+    margin: 0;
+    padding: 0px 0px 30px 0px;
+    font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 30pt;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #edeff1;
+    }
+
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.5;
+    -webkit-text-fill-color: #edeff1;
+}
+
+@media (min-width: 800px){
+
+.text{
+    margin: 0;
+    padding: 0;
+    font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 1.3;
+    -webkit-text-fill-color: #edeff1;
+    padding-top: 20px;
+    padding-right: 5%;
+    margin-bottom: 50px;
+    align-items: left;
+
+}
+
+#navtext{
+    font-size: 14pt;
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.descriptiontext{
+    margin: 0;
+    padding: 0;
+    font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 1.3;
+    -webkit-text-fill-color: #edeff1;
+    padding-top: 20px;
+    padding-right: 5%;
+    margin-bottom: 50px;
+    align-items: left;
+
+}
+
+}
+
+@media (max-width: 800px){
+
+    .text{
+        margin: 0;
+        padding: 0;
+        font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+        "Segoe UI", "Roboto", "Oxygen", 
+        "Ubuntu", "Cantarell", "Fira Sans", 
+        "Droid Sans", "Helvetica Neue", sans-serif;
+        font-size: 11pt;
+        font-weight: 300;
+        line-height: 1.3;
+        -webkit-text-fill-color: #edeff1;
+        padding-top: 20px;
+        padding-right: 5%;
+        margin-bottom: 30px;
+        align-items: left;
+    
+    }
+
+    #navtext{
+        font-size: 11pt;
+        font-weight: 300;
+        text-decoration: none;
+        cursor: pointer;
+    
+    }
+
+    .descriptiontext{
+        margin: 0;
+        padding: 0;
+        font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+        "Segoe UI", "Roboto", "Oxygen", 
+        "Ubuntu", "Cantarell", "Fira Sans", 
+        "Droid Sans", "Helvetica Neue", sans-serif;
+        font-size: 11pt;
+        font-weight: 300;
+        line-height: 1.3;
+        -webkit-text-fill-color: #edeff1;
+        padding-top: 20px;
+        padding-right: 5%;
+        margin-bottom: 0px;
+        align-items: left;
+    
+    }
+
+    }
+
+p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+    line-height: 1.5;
+
+}
+
+.block{
+    display: grid;
+    margin: 0;
+    padding: auto;
+                
+
+}
+
+
+.projblock{
+    height: auto;
+    padding: auto;
+    margin: 0px 10px;
+    /*background-color: red;*/ /*red background for all grid blocks*/
+
+}
+
+/* En animerad banner i toppen av sidan*/
+.scrollwelcome{
+    font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+    color:#edeff1;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+    transform:translateX(100%);
+    /* Apply animation to this element */	
+    -moz-animation: scroll-left 10s linear infinite;
+    -webkit-animation: scroll-left 10s linear infinite;
+    animation: scroll-left 10s linear infinite;
+    }
+    /* Move it (define the animation) */
+    @-moz-keyframes scroll-left {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+    }
+    @-webkit-keyframes scroll-left {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+    }
+    @keyframes scroll-left {
+    0%   { 
+    -moz-transform: translateX(100%); /* Browser bug fix */
+    -webkit-transform: translateX(100%); /* Browser bug fix */
+    transform: translateX(100%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%); /* Browser bug fix */
+    -webkit-transform: translateX(-100%); /* Browser bug fix */
+    transform: translateX(-100%); 
+    }
+}
+
+/* En animerad banner i toppen av sidan*/
+.scrolllock{
+    display: block;
+    max-width: 1200px;
+    padding: 20px 0px 5px 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.bigheader .bigheadertext{
+    transform-origin: 50% 100%;
+      display: inline-block;
+      line-height: 1em;
+    
+}
+
+
+.headerblock{
+    display: block;
+    max-width: 1200px;
+    padding: 20px 0px 5px 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+        justify-content: space-between;
+
+}
+
+.header2{
+    padding-bottom: 50px;
+    
+}
+
+
+/* desktop screen */
+@media (min-width: 800px){
+
+
+.nav{
+    margin: 0;
+    padding: 0;
+    font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+}
+
+/* mobile screen */
+@media (max-width: 800px){
+
+
+    .nav{
+        margin: 0;
+        padding: 0;
+        font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+        "Segoe UI", "Roboto", "Oxygen", 
+        "Ubuntu", "Cantarell", "Fira Sans", 
+        "Droid Sans", "Helvetica Neue", sans-serif;
+        font-size: 15pt;
+        font-weight: 500;
+    }
+    
+    }
+
+.projcontainer{
+    display: flex;
+    padding-bottom: 0px;
+    max-width: 1200px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+.descriptioncontainer{
+    max-width: 1200px;
+}
+
+.description{
+    margin: 45px 0px 70px 00px;
+    padding-right: 15vw;
+
+}
+
+.projdescription{
+    margin: 0;
+    padding: 0;
+
+}
+
+@media (min-width: 800px){
+.projdescriptioncontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(26em, auto));
+    padding-bottom: 0px;
+    max-width: 1200px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+}
+
+@media (max-width: 800px){
+    .projdescriptioncontainer{
+        display:block;
+        padding-bottom: 0px;
+        max-width: 1200px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        
+    }
+    }
+
+
+@media (min-width: 800px){
+.projseparator{
+    display: flex;
+    height: 6rem;
+    max-width: 1200px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+}
+
+@media (max-width: 800px){
+    .projseparator{
+        display: flex;
+        height: 3rem;
+        max-width: 1200px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    
+    }
+    
+    }
+
+.projfirsttitle{
+
+    position: absolute;
+    display: flex;
+    max-width: 900px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: left;
+    max-width: 600px;
+
+}
+
+.projtitle{
+    opacity: 0;
+     transform: translateY(50px);
+    transition: all 1.2s ease-out;
+    position: absolute;
+    display: flex;
+    max-width: 900px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: left;
+    max-width: 600px;
+    
+
+}
+
+.projtitleVisible{
+    opacity: 1;
+      transform: translateY(0);
+    position: absolute;
+    display: flex;
+    max-width: 900px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: left;
+    max-width: 600px;
+    
+
+}
+
+.client{
+    padding-top: 10px;
+    
+
+}
+
+.projimage{
+    position:relative;
+    max-width: 1200px;
+    float: top;
+    object-fit: cover;	
+
+}
+
+.herofilm{
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+
+}
+
+.herofilm iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+
+}
+
+video{
+    width: 100%;
+    height: 100%;   
+}
+
+
+ol{
+    padding: 0;
+    margin: 0;
+    list-style-position: none;
+    list-style-type: none;
+    margin-bottom: 80px;
+
+}
+
+li{
+    padding: 0;
+    margin: 0;
+    list-style-position: none;
+    list-style-type: none;
+    font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 12pt;
+    font-weight: 500;
+    line-height: 1.5;
+    -webkit-text-fill-color: #edeff1;
+
+}
+
+.listhead{
+    font-size: 18pt;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.namn{
+    font-weight: 800;
+    font-style: italic;	
+    
+}
+
+
+
+/* desktop screen */
+@media (min-width: 800px){
+
+
+.footerblock{
+    display: flex;
+    max-width: 1200px;
+    padding: 50px 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+}
+
+/* mobile screen */
+@media (max-width: 800px){
+
+
+.footerblock{
+    display: flex;
+    max-width: 1200px;
+    padding: 50px 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+}

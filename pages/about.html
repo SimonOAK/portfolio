@@ -111,7 +111,7 @@
 			"Ubuntu", "Cantarell", "Fira Sans", 
 			"Droid Sans", "Helvetica Neue", sans-serif;
 			font-size: 45pt;
-			font-weight: 900;
+			font-weight: 800;
 			text-transform: none;
 			line-height: 1;
 			color: #edeff1;
@@ -216,7 +216,7 @@
 			"Ubuntu", "Cantarell", "Fira Sans", 
 			"Droid Sans", "Helvetica Neue", sans-serif;
 			font-size: 30pt;
-			font-weight: 900;
+			font-weight: 800;
 			text-transform: none;
 			line-height: 1;
 			color: #edeff1;
@@ -280,6 +280,38 @@
 			margin: 0px 10px;
 			/*background-color: red;*/ /*red background for all grid blocks*/
 
+		}
+
+			/* desktop screen */
+			@media (min-width: 600px){
+
+		.projseparator{
+			display: flex;
+			height: 6rem;
+			max-width: 1200px;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+
+		}
+
+		}
+
+
+		/* mobile screen */
+		@media (max-width: 600px){
+
+		.projseparator{
+			display: flex;
+			height: 7vh;
+			max-width: 1200px;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+
+		}
+
+	
 		}
 
 
@@ -372,10 +404,10 @@
 
 		.projimage{
 			position:relative;
-			padding: 35px 0px 0px 12%;
+			max-width: 1200px;
 			float: top;
 			object-fit: cover;	
-		
+
 		}
 
 		.projimagefirst{
@@ -388,8 +420,10 @@
 		img{
 			height: 100%;
 			width: 100%;
+			border-radius: 2vw;
 
 		}
+		
 
 		video{
 			height: 100%;
@@ -504,7 +538,7 @@
 					<h2>Utbildning</h2>
 					<ol class="list">
 					<li>Beckmans Designhögskola &#8592; BFA i Visuell Kommunikation (2013-2016)</li>
-
+					<li>Nyckelviksskolan &#8592; Färg, Form och Hantverk (2011-2012)</li>
 				</div>	
 		</div>
 	</div>
@@ -536,6 +570,18 @@
 	</div>
 
 
+    <div class="projblock">
+        <div class="projimage">
+            <div class="heroimage">
+                <img src="../images/portrait-simon.jpg">
+              </div>
+         </div>
+	</div>
+
+	<div class="projblock">
+		<div class="projseparator">
+		</div>	
+	</div>
 
 
 	<div class="projblock">
